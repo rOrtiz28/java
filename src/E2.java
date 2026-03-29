@@ -6,7 +6,7 @@
 public class E2 {
     public static void main(String[] args) {
         int myWeight = 218;
-        double convertToKg = 218 / 2.205;
+        double convertToKg = myWeight / 2.205;
         int result = (int) convertToKg;
         long resultL = (long) convertToKg;
         byte resultB = (byte) convertToKg;
